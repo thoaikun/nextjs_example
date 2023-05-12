@@ -1,0 +1,17 @@
+.container {
+    background-color: teal;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.element {
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.element:hover {
+    background-color: rgb(2, 94, 94);
+}

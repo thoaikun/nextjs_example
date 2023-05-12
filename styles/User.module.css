@@ -1,0 +1,43 @@
+.userContainer {
+    margin: 2rem 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.usercard {
+    flex-basis: 24%;
+    max-height: 250px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.usercard__avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.usercard__avatar img {
+    border-radius: 50%;
+}
+
+.usercard__avatar h4 {
+    margin: 0.5rem 0;
+}
+
+.usercard__content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.usercard__content p {
+    color: gray;
+}

@@ -1,0 +1,22 @@
+.container {
+    margin: 2rem 0;
+}
+
+.container p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.container p + p {
+    margin-top: 1rem;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin: 1.2rem 0;
+}
