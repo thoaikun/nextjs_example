@@ -37,7 +37,7 @@ export const getStaticProps = async (context) => {
 
 export const getStaticPaths = async () => {
     let response = await fetch(
-        'https://jsonplaceholder.typicode.com/posts?_limit=20'
+        'https://jsonplaceholder.typicode.com/posts?_limit=10'
     )
     let posts = await response.json()
 

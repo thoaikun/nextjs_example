@@ -37,8 +37,8 @@ const Post = ({ posts, page }) => {
 export const getServerSideProps = async (context) => {
     const page = context.query.page ? context.query.page : null
     const url = `https://jsonplaceholder.typicode.com/posts?_start=${
-        page ? page * 19 : 0
-    }&_limit=10`
+        page ? page * 5 : 0
+    }&_limit=5`
 
     try {
         let response = await fetch(url)
