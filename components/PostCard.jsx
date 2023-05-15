@@ -5,7 +5,7 @@ const PostCard = ({ post }) => {
     const titleMaxLength = 50
 
     return (
-        <Link href={`/post/${post.id}`} className={styles.postcard}>
+        <Link href={`/post-detail/${post.id}`} className={styles.postcard}>
             <div className={styles.postcard__img}>
                 <img
                     src={`https://picsum.photos/seed/${post.title}/250`}

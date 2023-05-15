@@ -10,11 +10,17 @@ const PostDetail = ({ post }) => {
             </div>
             <div className={styles['bottom-nav']}>
                 {post.id - 1 >= 1 && (
-                    <Link href={`/post/${post.id - 1}`} className={styles.btn}>
+                    <Link
+                        href={`/post-detail/${post.id - 1}`}
+                        className={styles.btn}
+                    >
                         Previous post
                     </Link>
                 )}
-                <Link href={`/post/${post.id + 1}`} className={styles.btn}>
+                <Link
+                    href={`/post-detail/${post.id + 1}`}
+                    className={styles.btn}
+                >
                     Next post
                 </Link>
             </div>
